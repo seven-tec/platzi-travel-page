@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "tw:build": "tailwindcss -i ./src/css/tailwind.css -o ./public/css/tailwind.css --watch",
     "tw:post": "npx tailwindcss -i ./src/css/tailwind.css -o ./public/css/tailwind.css --minify",
-    "deploy": "npx gh-pages -d ."
+    "deploy": "npx gh-pages -d public."
   },
   "author": "",
   "license": "ISC",
